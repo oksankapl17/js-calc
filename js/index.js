@@ -60,7 +60,11 @@ for (let i = 0; i < buttons.length; i++) {
         operatorIsAllowed = false;
       }
       else {
+        if (input === "0") {
           input += btnText;
+        } else {
+          input = input.slice(0, input.length - 1) + btnText;
+        }
       }
       dotIsAllowed = true;
       // after operator character it is allowed to insert another dot in equation
