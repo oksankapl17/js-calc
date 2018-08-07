@@ -29,8 +29,11 @@ for (let i = 0; i < buttons.length; i++) {
     }
     else if (btnText === "CE") {
       // delete one character
-      input = input.slice(0, input.length - 1);
-
+      if (input.length > 1 && input !== "0") {
+        input = input.slice(0, input.length - 1);
+      } else {
+        input = "0";
+      }
     }
     else if (btnText === ".") {
       // process the dot input
