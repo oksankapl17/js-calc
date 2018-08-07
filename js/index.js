@@ -17,9 +17,14 @@ function clearInput(input) {
   }
 }
 
+// Add event listener to window
+output.onclick = function() {
+  alert('Your result is: ' + this.innerHTML)
+};
+
 // Add event listeners for all buttons
 for (let i = 0; i < buttons.length; i++) {
-  buttons[i].onclick = function(e) {
+  buttons[i].onclick = function() {
     const btnText = this.innerHTML;
     if (btnText === "AC") {
       // clear the screen
