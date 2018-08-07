@@ -6,8 +6,7 @@ body {
     width: 272px;
     margin: 0 auto;
     padding: 15px;
-    border-radius: 6px;
-    border: 1px solid #444444;
+    border: 2px solid #000000;
 }
 
 .window {
@@ -23,24 +22,19 @@ body {
     margin-bottom: 5px;
     font-size: 2em;
     overflow: hidden;
-    border-radius: 6px;
 }
 
 .btn {
     margin: 4px 0 0 0;
     display: inline-block;
-    width: 64.75px;
+    width: 65px;
     height: 50px;
-    background: ;
     line-height: 46px;
     text-align: center;
     border: 0;
     outline: 0;
-    font-size: 1em;
-    transition: 0.3s ease-in-out;
-    border-radius: 3px;
-    background: #99999B;
-    color: #fff;
+    font-size: 1.8em;
+    color: #000000;
 }
 
 .btn:hover {
