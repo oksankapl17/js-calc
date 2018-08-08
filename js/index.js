@@ -55,7 +55,7 @@ for (let i = 0; i < buttons.length; i++) {
       }
       equation = input.replace(/×/g, "*");
       equation = equation.replace(/÷/g, "/");
-      result = Math.round(eval(equation) * 1000000) / 1000000;
+      result = Math.round(eval(equation) * 1000) / 1000;
       input = result;
       operatorIsAllowed = true;
     }
